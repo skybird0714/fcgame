@@ -12,7 +12,7 @@
     <meta name="x5-orientation" content="landscape">
     <meta name="x5-fullscreen" content="true">
     <meta name="x5-page-mode" content="app">
-    <title>FC游戏在线玩 | 小霸王其乐无穷</title>
+    <title>FC小霸王游戏机</title>
     <meta name="keywords" content="FC/NES模拟器，在线畅玩八十款任天堂红白机游戏，小霸王游戏机其乐无穷。支持魂斗罗/超级玛丽/忍者龙剑传等等任天堂红白机游戏。" />
     <meta name="description" content="非常适合在手机/电脑上在线游玩，近乎完美的还原任天堂FC/NES原版ROM游戏的视频和声音。" />
     <link href="css/jsnes.css" rel="stylesheet" type="text/css" />
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="joy">I</div>
-               <div><a href="https://github.com/lucaschungzsj/fcgame?tab=readme-ov-file#按键说明" tppabs="" target="_blank" class="readme">按键说明</a></div>
+               <div><a href="https://071400.xyz/fchelp/" tppabs="" target="_blank" class="readme">按键说明</a></div>
             </div>
             <div class="function-area">
                 <div class="screen">
@@ -250,22 +250,6 @@ joystick.init();
         }
     });
 
-    wx.ready(function () {
-        var shareData = {
-            title: '小霸王游戏机，时光倒转回童年',
-            desc: '在线游玩魂斗罗/超级玛丽/双截龙/冒险岛等等八十款任天堂红白机游戏！爷的青春回来了',
-            link: url,
-            imgUrl: imageUrl
-        };
-
-        wx.onMenuShareAppMessage(shareData);//分享给好友
-        wx.onMenuShareTimeline(shareData);//分享到朋友圈
-        wx.onMenuShareQQ(shareData);//分享给手机QQ
-        wx.onMenuShareWeibo(shareData);//分享腾讯微博
-        wx.onMenuShareQZone(shareData);//分享到QQ空间
-    });
-    wx.error(function (res) {
-        //alert(res.errMsg);//错误提示
-    });
+    
 </script> -->
 </html>
